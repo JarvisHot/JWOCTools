@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
 
 
   spec.source_files  = "JWOCTools", "JWOCTools/**/*.{h,m}"
-  s.ios.deployment_target = '9.0'
-  s.requires_arc = true
+  spec.ios.deployment_target = '9.0'
+  spec.requires_arc = true
 
 end
