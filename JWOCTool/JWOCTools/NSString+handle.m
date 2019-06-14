@@ -226,7 +226,7 @@
 }
 - (NSString *)URLDecode
 {
-    return [self stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    return [self stringByRemovingPercentEncoding];
 }
 
 - (NSString *)URLEncode
