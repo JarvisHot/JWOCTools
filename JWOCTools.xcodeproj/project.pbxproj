@@ -50,6 +50,7 @@
 		633493C922B34DA80070950D /* AESTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESTools.h; sourceTree = "<group>"; };
 		633493D122B34DF30070950D /* JWAutoRemoveNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAutoRemoveNotification.h; sourceTree = "<group>"; };
 		633493D222B34DF30070950D /* JWAutoRemoveNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAutoRemoveNotification.m; sourceTree = "<group>"; };
+		633493D422B351130070950D /* JWOCTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWOCTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		633493BB22B34B630070950D /* JWOCTools */ = {
 			isa = PBXGroup;
 			children = (
+				633493D422B351130070950D /* JWOCTools.h */,
 				633493D122B34DF30070950D /* JWAutoRemoveNotification.h */,
 				633493D222B34DF30070950D /* JWAutoRemoveNotification.m */,
 				633493C922B34DA80070950D /* AESTools.h */,
