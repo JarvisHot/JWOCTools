@@ -67,7 +67,7 @@
 		6334939922B3496C0070950D = {
 			isa = PBXGroup;
 			children = (
-				633493A422B3496C0070950D /* JWOCTools */,
+				633493A422B3496C0070950D /* JWOCTools1 */,
 				633493A322B3496C0070950D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		633493A422B3496C0070950D /* JWOCTools */ = {
+		633493A422B3496C0070950D /* JWOCTools1 */ = {
 			isa = PBXGroup;
 			children = (
 				633493A522B3496C0070950D /* AppDelegate.h */,
@@ -94,7 +94,7 @@
 				633493B322B3496E0070950D /* Info.plist */,
 				633493B422B3496E0070950D /* main.m */,
 			);
-			path = JWOCTools;
+			path = JWOCTools1;
 			sourceTree = "<group>";
 		};
 		633493BB22B34B630070950D /* JWOCTools */ = {
