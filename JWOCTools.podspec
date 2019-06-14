@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/JarvisHot/JWOCTools"
   
-  spec.license      = { :type => "MIT", :file => "LICENSE"}
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   
   spec.author             = { "jarvis🚴" => "objectclass@163.com" }
   
