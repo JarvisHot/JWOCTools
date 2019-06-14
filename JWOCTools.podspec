@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "JWOCTools"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "OC develop tools."
 
   spec.homepage     = "https://github.com/JarvisHot/JWOCTools"
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "jarvis🚴" => "objectclass@163.com" }
   
 
-  spec.source       = { :git => "https://github.com/JarvisHot/JWOCTools.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/JarvisHot/JWOCTools.git", :tag => "0.0.4" }
 
 
   spec.source_files  = "JWOCTools", "JWOCTools/**/*.{h,m}"
