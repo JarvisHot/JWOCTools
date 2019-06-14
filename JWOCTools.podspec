@@ -6,8 +6,6 @@ Pod::Spec.new do |spec|
   spec.name         = "JWOCTools"
   spec.version      = "0.0.2"
   spec.summary      = "OC develop tools."
-  s.requires_arc = true
- 
 
   spec.homepage     = "https://github.com/JarvisHot/JWOCTools"
   
@@ -21,5 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "JWOCTools", "JWOCTools/**/*.{h,m}"
   s.ios.deployment_target = '9.0'
+  s.requires_arc = true
 
 end
