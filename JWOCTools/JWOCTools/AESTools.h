@@ -9,10 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface AESTools : NSObject
-@required
-@property (nonatomic,copy) NSString *kInitVector;//秘钥，必须设置
-@end
-
+@property (nonatomic,copy) NSString * kInitVector;//秘钥，必须设置
++(instancetype)sharedInstance;
 + (NSString *)encryptAES:(NSString *)content key:(NSString *)key;
 + (NSString *)decryptAES:(NSString *)content key:(NSString *)key;
 + (NSString*) sha1:(NSString*)inputStr;//sha1加密

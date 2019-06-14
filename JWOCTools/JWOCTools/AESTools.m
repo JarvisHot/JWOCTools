@@ -12,6 +12,16 @@
 @implementation AESTools
 
 size_t const kKeySize = kCCKeySizeAES256;
+static AESTools *tools = nil;
++(instancetype)sharedInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (tools==nil) {
+            tools = [[self alloc]init];
+        }
+    });
+    return tools;
+}
 + (NSString *)encryptAES:(NSString *)content key:(NSString *)key {
     NSData *contentData = [content dataUsingEncoding:NSUTF8StringEncoding];
     NSUInteger dataLength = contentData.length;
@@ -23,7 +33,7 @@ size_t const kKeySize = kCCKeySizeAES256;
     size_t encryptSize = dataLength + kCCBlockSizeAES128;
     void *encryptedBytes = malloc(encryptSize);
     size_t actualOutSize = 0;
-    NSData *initVector = [kInitVector dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *initVector = [[AESTools sharedInstance].kInitVector dataUsingEncoding:NSUTF8StringEncoding];
     CCCryptorStatus cryptStatus = CCCrypt(kCCEncrypt,
                                           kCCAlgorithmAES,
                                           kCCOptionPKCS7Padding,  // 系统默认使用 CBC，然后指明使用 PKCS7Padding
@@ -53,7 +63,7 @@ size_t const kKeySize = kCCKeySizeAES256;
     size_t decryptSize = dataLength + kCCBlockSizeAES128;
     void *decryptedBytes = malloc(decryptSize);
     size_t actualOutSize = 0;
-    NSData *initVector = [kInitVector dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *initVector = [[AESTools sharedInstance].kInitVector dataUsingEncoding:NSUTF8StringEncoding];
     CCCryptorStatus cryptStatus = CCCrypt(kCCDecrypt,
                                           kCCAlgorithmAES,
                                           kCCOptionPKCS7Padding,
