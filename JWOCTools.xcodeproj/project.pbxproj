@@ -21,6 +21,8 @@
 		633493CF22B34DA80070950D /* NSString+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493C622B34DA80070950D /* NSString+handle.m */; };
 		633493D022B34DA80070950D /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493C722B34DA80070950D /* UIImage+Clip.m */; };
 		633493D322B34DF30070950D /* JWAutoRemoveNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493D222B34DF30070950D /* JWAutoRemoveNotification.m */; };
+		633493EC22B391200070950D /* UILabel+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EA22B391200070950D /* UILabel+FixScreenFont.m */; };
+		633493ED22B391200070950D /* NSLayoutConstraint+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,10 @@
 		633493D122B34DF30070950D /* JWAutoRemoveNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAutoRemoveNotification.h; sourceTree = "<group>"; };
 		633493D222B34DF30070950D /* JWAutoRemoveNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAutoRemoveNotification.m; sourceTree = "<group>"; };
 		633493D422B351130070950D /* JWOCTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWOCTools.h; sourceTree = "<group>"; };
+		633493E822B391200070950D /* UILabel+FixScreenFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FixScreenFont.h"; sourceTree = "<group>"; };
+		633493E922B391200070950D /* NSLayoutConstraint+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+IBDesignable.h"; sourceTree = "<group>"; };
+		633493EA22B391200070950D /* UILabel+FixScreenFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FixScreenFont.m"; sourceTree = "<group>"; };
+		633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+IBDesignable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				633493D422B351130070950D /* JWOCTools.h */,
+				633493E922B391200070950D /* NSLayoutConstraint+IBDesignable.h */,
+				633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */,
+				633493E822B391200070950D /* UILabel+FixScreenFont.h */,
+				633493EA22B391200070950D /* UILabel+FixScreenFont.m */,
 				633493D122B34DF30070950D /* JWAutoRemoveNotification.h */,
 				633493D222B34DF30070950D /* JWAutoRemoveNotification.m */,
 				633493C922B34DA80070950D /* AESTools.h */,
@@ -192,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				633493AA22B3496C0070950D /* ViewController.m in Sources */,
+				633493EC22B391200070950D /* UILabel+FixScreenFont.m in Sources */,
+				633493ED22B391200070950D /* NSLayoutConstraint+IBDesignable.m in Sources */,
 				633493CC22B34DA80070950D /* UIColor+Hex.m in Sources */,
 				633493CE22B34DA80070950D /* NSDictionary+json.m in Sources */,
 				633493CD22B34DA80070950D /* UIView+BorderLine.m in Sources */,

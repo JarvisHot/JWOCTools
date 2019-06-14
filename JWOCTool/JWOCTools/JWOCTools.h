@@ -17,5 +17,7 @@
 #import "UIImage+Clip.h"
 #import "UIView+BorderLine.h"
 #import "UIView+Frame.h"
+#import "NSLayoutConstraint+IBDesignable.h"
+#import "UILabel+FixScreenFont.h"
 
 #endif /* JWOCTools_h */
