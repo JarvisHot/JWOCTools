@@ -211,7 +211,7 @@
     return [pre evaluateWithObject:self];
 }
 //手机号有效性
-- (BOOL)isMobileNumber{
+- (BOOL)isMobileNumber {
     /**
      65      *  手机号以13、15、18、170开头，8个 \d 数字字符
      66      *  小灵通 区号：010,020,021,022,023,024,025,027,028,029 还有未设置的新区号xxx
@@ -223,6 +223,28 @@
     //         BOOL ret1 = [self isValidateByRegex:phsRegex];
     
     return ret ;
+}
+- (BOOL) validateUrl
+
+{
+    
+    NSString *regex = @"http(s)?:\\/\\/([\\w-]+\\.)+[\\w-]+(\\/[\\w- .\\/?%&=]*)?";
+    
+    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", regex];
+    
+    return [pred evaluateWithObject:self];
+    
+}
+- (BOOL) validateEmail
+
+{
+    
+    NSString *emailRegex = @"[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}";
+    
+    NSPredicate *emailTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", emailRegex];
+    
+    return [emailTest evaluateWithObject:self];
+    
 }
 - (NSString *)URLDecode
 {

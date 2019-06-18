@@ -30,6 +30,8 @@
 + (NSString *)timeWithTimeIntervalString:(NSString *)timeString format:(NSString*)format;
 + (NSString *)convertTime:(CGFloat)second;
 - (BOOL)isMobileNumber;
+- (BOOL) validateUrl;
+- (BOOL) validateEmail;
 - (NSString *)URLDecode;
 - (NSString *)URLEncode;
 - (NSString*)weekdayStringFromDate:(NSDate*)inputDate;
