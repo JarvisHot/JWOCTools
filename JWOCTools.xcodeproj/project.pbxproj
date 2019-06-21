@@ -23,6 +23,7 @@
 		633493D322B34DF30070950D /* JWAutoRemoveNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493D222B34DF30070950D /* JWAutoRemoveNotification.m */; };
 		633493EC22B391200070950D /* UILabel+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EA22B391200070950D /* UILabel+FixScreenFont.m */; };
 		633493ED22B391200070950D /* NSLayoutConstraint+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */; };
+		6374A94822BCD75F008F0221 /* JWPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		633493E922B391200070950D /* NSLayoutConstraint+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+IBDesignable.h"; sourceTree = "<group>"; };
 		633493EA22B391200070950D /* UILabel+FixScreenFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FixScreenFont.m"; sourceTree = "<group>"; };
 		633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+IBDesignable.m"; sourceTree = "<group>"; };
+		6374A94622BCD75F008F0221 /* JWPlaceHolderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWPlaceHolderView.h; sourceTree = "<group>"; };
+		6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWPlaceHolderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				633493D422B351130070950D /* JWOCTools.h */,
+				6374A94622BCD75F008F0221 /* JWPlaceHolderView.h */,
+				6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */,
 				633493E922B391200070950D /* NSLayoutConstraint+IBDesignable.h */,
 				633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */,
 				633493E822B391200070950D /* UILabel+FixScreenFont.h */,
@@ -208,6 +213,7 @@
 				633493CE22B34DA80070950D /* NSDictionary+json.m in Sources */,
 				633493CD22B34DA80070950D /* UIView+BorderLine.m in Sources */,
 				633493D322B34DF30070950D /* JWAutoRemoveNotification.m in Sources */,
+				6374A94822BCD75F008F0221 /* JWPlaceHolderView.m in Sources */,
 				633493B522B3496E0070950D /* main.m in Sources */,
 				633493A722B3496C0070950D /* AppDelegate.m in Sources */,
 				633493CF22B34DA80070950D /* NSString+handle.m in Sources */,

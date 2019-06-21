@@ -19,5 +19,5 @@
 #import "UIView+Frame.h"
 #import "NSLayoutConstraint+IBDesignable.h"
 #import "UILabel+FixScreenFont.h"
-
+#import "JWPlaceHolderView.h"
 #endif /* JWOCTools_h */
