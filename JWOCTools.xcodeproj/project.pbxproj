@@ -23,6 +23,8 @@
 		633493D322B34DF30070950D /* JWAutoRemoveNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493D222B34DF30070950D /* JWAutoRemoveNotification.m */; };
 		633493EC22B391200070950D /* UILabel+FixScreenFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EA22B391200070950D /* UILabel+FixScreenFont.m */; };
 		633493ED22B391200070950D /* NSLayoutConstraint+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */; };
+		63425B5F239207500065A5B5 /* UIButton+JWBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 63425B5E239207500065A5B5 /* UIButton+JWBadge.m */; };
+		63425B62239209BB0065A5B5 /* UIButton+JWCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 63425B61239209BB0065A5B5 /* UIButton+JWCountDown.m */; };
 		6374A94822BCD75F008F0221 /* JWPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,10 @@
 		633493E922B391200070950D /* NSLayoutConstraint+IBDesignable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+IBDesignable.h"; sourceTree = "<group>"; };
 		633493EA22B391200070950D /* UILabel+FixScreenFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FixScreenFont.m"; sourceTree = "<group>"; };
 		633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+IBDesignable.m"; sourceTree = "<group>"; };
+		63425B5D239207500065A5B5 /* UIButton+JWBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWBadge.h"; sourceTree = "<group>"; };
+		63425B5E239207500065A5B5 /* UIButton+JWBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWBadge.m"; sourceTree = "<group>"; };
+		63425B60239209BB0065A5B5 /* UIButton+JWCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWCountDown.h"; sourceTree = "<group>"; };
+		63425B61239209BB0065A5B5 /* UIButton+JWCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWCountDown.m"; sourceTree = "<group>"; };
 		6374A94622BCD75F008F0221 /* JWPlaceHolderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWPlaceHolderView.h; sourceTree = "<group>"; };
 		6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWPlaceHolderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +82,7 @@
 		6334939922B3496C0070950D = {
 			isa = PBXGroup;
 			children = (
-				633493A422B3496C0070950D /* JWOCTool */,
+				633493A422B3496C0070950D /* JWOCTools */,
 				633493A322B3496C0070950D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +95,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		633493A422B3496C0070950D /* JWOCTool */ = {
+		633493A422B3496C0070950D /* JWOCTools */ = {
 			isa = PBXGroup;
 			children = (
 				633493A522B3496C0070950D /* AppDelegate.h */,
@@ -103,7 +109,7 @@
 				633493B322B3496E0070950D /* Info.plist */,
 				633493B422B3496E0070950D /* main.m */,
 			);
-			path = JWOCTool;
+			path = JWOCTools;
 			sourceTree = "<group>";
 		};
 		633493BB22B34B630070950D /* JWOCTools */ = {
@@ -132,6 +138,10 @@
 				633493C322B34DA80070950D /* UIView+BorderLine.m */,
 				633493C522B34DA80070950D /* UIView+Frame.h */,
 				633493BF22B34DA70070950D /* UIView+Frame.m */,
+				63425B5D239207500065A5B5 /* UIButton+JWBadge.h */,
+				63425B5E239207500065A5B5 /* UIButton+JWBadge.m */,
+				63425B60239209BB0065A5B5 /* UIButton+JWCountDown.h */,
+				63425B61239209BB0065A5B5 /* UIButton+JWCountDown.m */,
 			);
 			path = JWOCTools;
 			sourceTree = "<group>";
@@ -214,8 +224,10 @@
 				633493CD22B34DA80070950D /* UIView+BorderLine.m in Sources */,
 				633493D322B34DF30070950D /* JWAutoRemoveNotification.m in Sources */,
 				6374A94822BCD75F008F0221 /* JWPlaceHolderView.m in Sources */,
+				63425B62239209BB0065A5B5 /* UIButton+JWCountDown.m in Sources */,
 				633493B522B3496E0070950D /* main.m in Sources */,
 				633493A722B3496C0070950D /* AppDelegate.m in Sources */,
+				63425B5F239207500065A5B5 /* UIButton+JWBadge.m in Sources */,
 				633493CF22B34DA80070950D /* NSString+handle.m in Sources */,
 				633493D022B34DA80070950D /* UIImage+Clip.m in Sources */,
 				633493CB22B34DA80070950D /* UIView+Frame.m in Sources */,

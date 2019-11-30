@@ -20,4 +20,7 @@
 #import "NSLayoutConstraint+IBDesignable.h"
 #import "UILabel+FixScreenFont.h"
 #import "JWPlaceHolderView.h"
+#import "UIButton+JWBadge.h"
+#import "UIButton+JWCountDown.h"
+
 #endif /* JWOCTools_h */
