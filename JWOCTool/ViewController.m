@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "JWOCTools.h"
+
 
 @interface ViewController ()
 
@@ -19,9 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-- (IBAction)click:(UIButton *)sender {
-    [sender scheduledTimerWithTimeInterval:60 title:@"获取" countDownTitle:@"S" titleTextColor:[UIColor redColor] countDownTitleTextColor:[UIColor colorWithHexString:@"#999999"]];
-}
+
 
 
 @end
