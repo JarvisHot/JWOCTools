@@ -25,6 +25,8 @@
 		633493ED22B391200070950D /* NSLayoutConstraint+IBDesignable.m in Sources */ = {isa = PBXBuildFile; fileRef = 633493EB22B391200070950D /* NSLayoutConstraint+IBDesignable.m */; };
 		63425B5F239207500065A5B5 /* UIButton+JWBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 63425B5E239207500065A5B5 /* UIButton+JWBadge.m */; };
 		63425B62239209BB0065A5B5 /* UIButton+JWCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 63425B61239209BB0065A5B5 /* UIButton+JWCountDown.m */; };
+		6372EB7223B30D3800F65BE1 /* UIViewController+JWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372EB7023B30D3800F65BE1 /* UIViewController+JWCategory.m */; };
+		6372EB7323B30D3800F65BE1 /* NSData+JWExCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6372EB7123B30D3800F65BE1 /* NSData+JWExCategory.m */; };
 		6374A94822BCD75F008F0221 /* JWPlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,10 @@
 		63425B5E239207500065A5B5 /* UIButton+JWBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWBadge.m"; sourceTree = "<group>"; };
 		63425B60239209BB0065A5B5 /* UIButton+JWCountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JWCountDown.h"; sourceTree = "<group>"; };
 		63425B61239209BB0065A5B5 /* UIButton+JWCountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JWCountDown.m"; sourceTree = "<group>"; };
+		6372EB6E23B30D3700F65BE1 /* UIViewController+JWCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JWCategory.h"; sourceTree = "<group>"; };
+		6372EB6F23B30D3700F65BE1 /* NSData+JWExCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JWExCategory.h"; sourceTree = "<group>"; };
+		6372EB7023B30D3800F65BE1 /* UIViewController+JWCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JWCategory.m"; sourceTree = "<group>"; };
+		6372EB7123B30D3800F65BE1 /* NSData+JWExCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JWExCategory.m"; sourceTree = "<group>"; };
 		6374A94622BCD75F008F0221 /* JWPlaceHolderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWPlaceHolderView.h; sourceTree = "<group>"; };
 		6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWPlaceHolderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +148,10 @@
 				63425B5E239207500065A5B5 /* UIButton+JWBadge.m */,
 				63425B60239209BB0065A5B5 /* UIButton+JWCountDown.h */,
 				63425B61239209BB0065A5B5 /* UIButton+JWCountDown.m */,
+				6372EB6F23B30D3700F65BE1 /* NSData+JWExCategory.h */,
+				6372EB7123B30D3800F65BE1 /* NSData+JWExCategory.m */,
+				6372EB6E23B30D3700F65BE1 /* UIViewController+JWCategory.h */,
+				6372EB7023B30D3800F65BE1 /* UIViewController+JWCategory.m */,
 			);
 			path = JWOCTools;
 			sourceTree = "<group>";
@@ -228,9 +238,11 @@
 				633493B522B3496E0070950D /* main.m in Sources */,
 				633493A722B3496C0070950D /* AppDelegate.m in Sources */,
 				63425B5F239207500065A5B5 /* UIButton+JWBadge.m in Sources */,
+				6372EB7223B30D3800F65BE1 /* UIViewController+JWCategory.m in Sources */,
 				633493CF22B34DA80070950D /* NSString+handle.m in Sources */,
 				633493D022B34DA80070950D /* UIImage+Clip.m in Sources */,
 				633493CB22B34DA80070950D /* UIView+Frame.m in Sources */,
+				6372EB7323B30D3800F65BE1 /* NSData+JWExCategory.m in Sources */,
 				633493CA22B34DA80070950D /* AESTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,5 +22,7 @@
 #import "JWPlaceHolderView.h"
 #import "UIButton+JWBadge.h"
 #import "UIButton+JWCountDown.h"
+#import "NSData+JWExCategory.h"
+#import "UIViewController+JWCategory.h"
 
 #endif /* JWOCTools_h */
