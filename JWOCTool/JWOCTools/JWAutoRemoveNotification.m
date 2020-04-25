@@ -21,7 +21,7 @@
 
 @implementation JWAutoRemoveNotification
 
-+ (void)addObserver:(id)notificationObserver selector:(SEL)notificationSelector name:(NSString *)notificationName object:(id)notificationSender {
++ (void)addObserver:(id)notificationObserver selector:(SEL)notificationSelector name:(NSString *)notificationName object:(nullable id)notificationSender {
     
     JWAutoRemoveNotification *removeNotification = [[JWAutoRemoveNotification alloc] init];
     removeNotification.notificationObserver = notificationObserver;

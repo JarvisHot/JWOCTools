@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "JWOCTools"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "OC develop tools."
 
   spec.homepage     = "https://github.com/JarvisHot/JWOCTools"

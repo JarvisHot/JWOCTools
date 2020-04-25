@@ -12,7 +12,7 @@
 // 透明度固定为1，以0x开头的十六进制转换成的颜色
 + (UIColor*) colorWithHex:(long)hexColor;
 {
-    return [UIColor colorWithHex:hexColor alpha:1.];
+    return [UIColor colorWithHex:hexColor alpha:1];
 }
 // 0x开头的十六进制转换成的颜色,透明度可调整
 + (UIColor *)colorWithHex:(long)hexColor alpha:(float)opacity
