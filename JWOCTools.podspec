@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "jarvis🚴" => "objectclass@163.com" }
   
 
-  spec.source       = { :git => "https://github.com/JarvisHot/JWOCTools.git", :tag => "0.1.1" }
+  spec.source       = { :git => "https://github.com/JarvisHot/JWOCTools.git", :tag => "0.1.2" }
 
 
   spec.source_files  = "JWOCTools", "JWOCTool/JWOCTools/**/*.{h,m}"
