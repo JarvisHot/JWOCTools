@@ -24,5 +24,6 @@
 #import "UIButton+JWCountDown.h"
 #import "NSData+JWExCategory.h"
 #import "UIViewController+JWCategory.h"
+#import "JWToollsDefine.h"
 
 #endif /* JWOCTools_h */

@@ -8,9 +8,16 @@
 
 #import "ViewController.h"
 
+#import "JWOCTools.h"
 
 @interface ViewController ()
-
+JWPropertyString(mystr);
+JWPropertyFloat(f);
+JWPropertyNSArray(myarr);
+JWPropertyLongLong(lo);
+JWPropertyNSInteger(intr);
+JWPropertyNSDictionary(dic);
+JWPropertyNSMutableArray(mutarr);
 @end
 
 @implementation ViewController

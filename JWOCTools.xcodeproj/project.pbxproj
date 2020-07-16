@@ -72,6 +72,7 @@
 		6372EB7123B30D3800F65BE1 /* NSData+JWExCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JWExCategory.m"; sourceTree = "<group>"; };
 		6374A94622BCD75F008F0221 /* JWPlaceHolderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWPlaceHolderView.h; sourceTree = "<group>"; };
 		6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWPlaceHolderView.m; sourceTree = "<group>"; };
+		63EAD25524C020DC00D0E987 /* JWToollsDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWToollsDefine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				633493D422B351130070950D /* JWOCTools.h */,
+				63EAD25524C020DC00D0E987 /* JWToollsDefine.h */,
 				6374A94622BCD75F008F0221 /* JWPlaceHolderView.h */,
 				6374A94722BCD75F008F0221 /* JWPlaceHolderView.m */,
 				633493E922B391200070950D /* NSLayoutConstraint+IBDesignable.h */,
